@@ -22,7 +22,8 @@ if __name__ == "__main__":
     input_files = input("Enter the names of the PDF files to combine, separated by commas: ").split(',')
 
     output_file_name = input("Enter the name of the output file: ")
-
-    output = "C:\\Users\\Cal\\Downloads\\" + output_file_name + ".pdf" #Hardcoded directory, change as desired
+    
+    output = "C:\\Users\\NAME\\Downloads\\" + output_file_name + ".pdf" #Hardcoded directory, change as desired
 
     combine_pdfs(input_files, output)
+
